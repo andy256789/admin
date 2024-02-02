@@ -1,0 +1,32 @@
+:root{
+    --accent-color: #00a6e3;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr 8fr;
+}
+
+.dashboard{
+    background-color: var(--accent-color);
+    grid-row: 1/3;
+}
+
+.header{
+    background-color: antiquewhite;
+}
+
+.main{
+    background-color: blueviolet;
+}
